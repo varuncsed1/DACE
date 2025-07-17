@@ -56,14 +56,6 @@ export default function Home() {
             className={styles.image}
           />
           <h3 className={styles.name}>Dr. Shri Prakash</h3>
-          <p className={styles.details}>
-            (Social Sciences)<br />
-            (Joined on 7 Nov. 2022)<br />
-            M.A. Geography<br />
-            NET-JRF Qualified<br />
-            03 times UPSC mains exam appeared<br />
-            Multiple State Services Exams Qualified
-          </p>
         </div>
 
         {/* Faculty 2 */}
@@ -76,16 +68,8 @@ export default function Home() {
             className={styles.image}
           />
           <h3 className={styles.name}>Dr. Ashish Bahuguna</h3>
-          <p className={styles.details}>
-            (Science &amp; Technology)<br />
-            (Joined on 10 Nov. 2022)<br />
-            M.Sc. Chemistry<br />
-            NET-JRF, GATE, U-SET Qualified<br />
-            PhD from IIT Mandi<br />
-            Postdoc (Israel)<br />
-            02 Times UPSC-CDS Qualified
-          </p>
         </div>
+       </div>
       <Vision />
       <section id="mission" style={{ scrollMarginTop: "80px", padding: "3rem 1rem", maxWidth: "64rem", margin: "0 auto" }}>
         <Mission/>
