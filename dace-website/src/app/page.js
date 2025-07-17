@@ -42,7 +42,7 @@ export default function Home() {
             
           }}
         >
-          H.N.B. Garhwal University
+          Hemvati Nandan Bahuguna Garhwal Univeristy (A Central University)
         </h2>
       </header>
 
