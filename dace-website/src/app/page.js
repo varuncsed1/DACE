@@ -46,7 +46,7 @@ export default function Home() {
         </h2>
       </header>
 
-            <h2 className={styles.heading}>Vice Chancellor</h2>
+       <h2 className={styles.heading}>Vice Chancellor</h2>
       <div className={styles.grid}>
         {/* Faculty 1 */}
         <div className={styles.card}>
@@ -70,7 +70,6 @@ export default function Home() {
             width={400}
             height={400}
             className={styles.image}
-          
           />
           <h3 className={styles.name}>Prof. M. M. Semwal</h3>
           <h4 className={styles.name}>DACE - Coordinator</h4>
