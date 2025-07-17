@@ -10,7 +10,7 @@ import Eligibility from "./components/Eligibility";
 import OtherActivities from "./components/OtherActivities";
 import Faculties from "./components/Faculties";
 import LinksPage from "./components/Links";
-
+import styles from "./styles/faculties.module.css";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
