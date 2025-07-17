@@ -39,6 +39,7 @@ export default function Home() {
             fontSize: "1.25rem",
             fontWeight: "500",
             color: "#374151",
+            
           }}
         >
           H.N.B. Garhwal University
@@ -51,24 +52,28 @@ export default function Home() {
         <div className={styles.card}>
           <Image
             src="/Picture10.jpeg"
-            alt="Dr. Shri Prakash"
+            alt="Prof. Shri Prakash Singh"
             width={400}
             height={400}
             className={styles.image}
+            align: center
           />
-          <h3 className={styles.name}>Dr. Shri Prakash</h3>
+          <h3 className={styles.name}>Prof. Shri Prakash Singh</h3>
+          <h4 className={styles.name}>Vice-Chancellor</h4>
         </div>
 
         {/* Faculty 2 */}
         <div className={styles.card}>
           <Image
             src="/Picture11.png"
-            alt="Dr. Ashish Bahuguna"
+            alt="Prof. M. M. Semwal"
             width={400}
             height={400}
             className={styles.image}
+          
           />
-          <h3 className={styles.name}>Dr. Ashish Bahuguna</h3>
+          <h3 className={styles.name}>Prof. M. M. Semwal</h3>
+          <h4 className={styles.name}>DACE - Coordinator</h4>
         </div>
        </div>
       <Vision />
