@@ -48,21 +48,20 @@ export default function Home() {
 
       <h2 className={styles.heading}>Vice Chancellor</h2>
       <div className={styles.grid}>
-        <div className={styles.card}>
+       <div className={styles.card} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <Image
             src="/Picture10.jpeg"
             alt="Prof. Shri Prakash Singh"
             width={400}
             height={400}
             className={styles.image}
-            align: center
           />
           <h3 className={styles.name}>Prof. Shri Prakash Singh</h3>
           <h4 className={styles.name}>Vice-Chancellor</h4>
         </div>
 
         {/* Faculty 2 */}
-        <div className={styles.card}>
+      <div className={styles.card} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <Image
             src="/Picture11.png"
             alt="Prof. M. M. Semwal"
