@@ -4,12 +4,12 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  width: 50%;
+  width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
