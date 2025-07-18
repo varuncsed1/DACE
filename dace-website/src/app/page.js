@@ -52,8 +52,8 @@ export default function Home() {
           <Image
             src="/Picture10.jpeg"
             alt="Prof. Shri Prakash Singh"
-            width={300}
-            height={300}
+            width={100}
+            height={100}
             className={styles.image}
           />
           <h3 className={styles.name}>Prof. Shri Prakash Singh</h3>
@@ -65,8 +65,8 @@ export default function Home() {
           <Image
             src="/Picture11.png"
             alt="Prof. M. M. Semwal"
-            width={300}
-            height={300}
+            width={100}
+            height={100}
             className={styles.image}
           />
           <h3 className={styles.name}>Prof. M. M. Semwal</h3>
