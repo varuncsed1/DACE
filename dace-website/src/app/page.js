@@ -46,7 +46,7 @@ export default function Home() {
         </h2>
       </header>
 
-      <h2 className={styles.heading}>Vice Chancellor</h2>
+
       <div className={styles.grid}>
        <div className={styles.card} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <Image
